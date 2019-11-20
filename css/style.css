@@ -1,0 +1,30 @@
+#container {
+    width: 1200px;
+    height:auto;
+}
+header {
+    width: 1200px;
+    height: 100px;
+}
+#visual {
+    width: 1200px;
+    height: 300px;
+}
+#contents {
+    width: 1200px;
+    height: 200px;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+}
+.logo {
+    width: 200px;
+    height: 40px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
