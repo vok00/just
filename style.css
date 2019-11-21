@@ -1,0 +1,116 @@
+#container {
+    width: 1200px;
+    height:auto;
+}
+header {
+    width: 1200px;
+    height: 100px;
+}
+
+
+
+header nav {
+    float: right;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+header nav .mainmenu{
+    width: 600px;
+    line-height: 30px;
+}
+header nav .mainmenu>li{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: #000;
+    transition: all 0.4s;
+}
+header nav .mainmenu>li:hover{
+    background-color:indianRed;color:#ffffff;
+}
+header nav .submenu{
+    display: none;
+}
+header nav .submenu li{
+    background-color: #ddd;
+    color: #000;
+    transition: all 0.4s;
+}
+header nav .submenu li:hover {
+    background-color: lightcoral;
+    color:#fff;
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+    float:left;
+}
+
+
+#visual {
+    width: 1200px;
+    height: 300px;
+    position:relative;
+}
+#visual img {
+    position: absolute;
+    left:0;
+    top:0;
+
+}
+#contents {
+    width: 1200px;
+    height: 200px;
+    position:relative;
+}
+
+
+.cont1 {
+    float: left;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+.cont1 label {
+    display: block;
+    width: 100px;
+    background-color: pink;
+}
+.cont1:checked~label {
+    width: 100px;
+    background-color: coral;
+}
+.cont1 .cnt {
+    display: none;
+    position: absolute;
+    top: 30px;left: 0;
+}
+.cont1:checked~ .cnt {
+    display: block;
+}
+.cont1 .cnt table {width: 500px;background: #ddd; border-collapse: collapse;}
+.cont1 .cnt table th{background-color: #eee;}
+.cont1 .cnt table tr:nth-of-type(even) {background-color: #ccc;}
+.cont1 .imdd {width: 500px;height: 120px;background-color: coral;}
+.cont1 .popup_group #popup{display: none;position: fixed;top: 50%;left: 50%;margin: -105px 0 0 -155px;width: 300px;height: 200px;padding: 10px;background-color: tan;border: 1px solid #000;border-radius: 5px;}
+.cont1 .popup_group #popup h2{text-align: left;border-bottom: 1px solid #000;}
+.cont1 .popup_group #popup p{margin-top: 10px;}
+.cont1 .popup_group #popup button {position: absolute;bottom: 10px;right: 10px;width: 50px;height: 30px;}
+
+.cont {
+    width: 400px;
+    height: 200px;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
